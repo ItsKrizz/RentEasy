@@ -18,7 +18,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentEasy.Services", "RentEa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentEasy.ConsoleApp", "RentEasy.ConsoleApp\RentEasy.ConsoleApp.csproj", "{BAE60DA9-D1EB-429E-BACE-5550B976F107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentEasy.Seeder", "RentEasy.Seeder\RentEasy.Seeder.csproj", "{22AF757A-76E0-4AE6-AC42-C35E506FBBC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentEasy.Seeder", "RentEasy.Seeder\RentEasy.Seeder.csproj", "{22AF757A-76E0-4AE6-AC42-C35E506FBBC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentEasy.FormApp", "RentEasy.FormApp\RentEasy.FormApp.csproj", "{4D1BE91E-B546-4792-8C70-480C814BD696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,10 @@ Global
 		{22AF757A-76E0-4AE6-AC42-C35E506FBBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22AF757A-76E0-4AE6-AC42-C35E506FBBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22AF757A-76E0-4AE6-AC42-C35E506FBBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1BE91E-B546-4792-8C70-480C814BD696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1BE91E-B546-4792-8C70-480C814BD696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1BE91E-B546-4792-8C70-480C814BD696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1BE91E-B546-4792-8C70-480C814BD696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
