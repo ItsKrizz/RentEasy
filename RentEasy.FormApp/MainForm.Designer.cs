@@ -36,9 +36,9 @@
             // 
             // button1
             // 
-            button1.Location = new System.Drawing.Point(12, 29);
+            button1.Location = new System.Drawing.Point(189, 12);
             button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(352, 107);
+            button1.Size = new System.Drawing.Size(352, 83);
             button1.TabIndex = 0;
             button1.Text = "Apartment Form";
             button1.UseVisualStyleBackColor = true;
@@ -46,9 +46,9 @@
             // 
             // button2
             // 
-            button2.Location = new System.Drawing.Point(12, 142);
+            button2.Location = new System.Drawing.Point(189, 139);
             button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(352, 88);
+            button2.Size = new System.Drawing.Size(352, 83);
             button2.TabIndex = 1;
             button2.Text = "Client Form";
             button2.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // button3
             // 
-            button3.Location = new System.Drawing.Point(12, 262);
+            button3.Location = new System.Drawing.Point(189, 381);
             button3.Name = "button3";
-            button3.Size = new System.Drawing.Size(352, 77);
+            button3.Size = new System.Drawing.Size(352, 83);
             button3.TabIndex = 2;
             button3.Text = "Location Form";
             button3.UseVisualStyleBackColor = true;
@@ -66,7 +66,7 @@
             // 
             // button4
             // 
-            button4.Location = new System.Drawing.Point(12, 355);
+            button4.Location = new System.Drawing.Point(189, 260);
             button4.Name = "button4";
             button4.Size = new System.Drawing.Size(352, 83);
             button4.TabIndex = 3;
@@ -78,13 +78,15 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(610, 492);
+            ClientSize = new System.Drawing.Size(698, 489);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            MaximumSize = new System.Drawing.Size(714, 528);
+            MinimumSize = new System.Drawing.Size(714, 528);
             Name = "MainForm";
-            Text = "Form1";
+            Text = "Main Form";
             ResumeLayout(false);
         }
 
