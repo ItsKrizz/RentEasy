@@ -128,5 +128,10 @@ namespace RentEasy.FormApp
                 listBox2.Items.Add($"{client.Name}, {client.PhoneNumber}");
             }
         }
+
+        private void ClientForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

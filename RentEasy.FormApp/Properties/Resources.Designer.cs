@@ -73,9 +73,29 @@ namespace RentEasy.FormApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Googlemap_600x551_1 {
+            get {
+                object obj = ResourceManager.GetObject("Googlemap-600x551-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap photo_1594873604892_b599f847e859 {
             get {
                 object obj = ResourceManager.GetObject("photo-1594873604892-b599f847e859", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Reservation_181a_86eeb89893 {
+            get {
+                object obj = ResourceManager.GetObject("Reservation_181a_86eeb89893", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

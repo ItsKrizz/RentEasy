@@ -164,6 +164,7 @@
             Controls.Add(button1);
             Name = "ClientForm";
             Text = "ClientForm";
+            Load += ClientForm_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
