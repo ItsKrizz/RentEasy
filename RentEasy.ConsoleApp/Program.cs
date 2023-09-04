@@ -7,6 +7,7 @@ namespace RentEasy.ConsoleApp
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             ApartmentService apartmentService = new ApartmentService();
