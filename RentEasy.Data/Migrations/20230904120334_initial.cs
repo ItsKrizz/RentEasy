@@ -65,8 +65,8 @@ namespace RentEasy.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CheckInDate = table.Column<DateTime>(nullable: false),
                     CheckOutDate = table.Column<DateTime>(nullable: false),
-                    ApartmentId = table.Column<int>(nullable: true),
-                    ClientId = table.Column<int>(nullable: true)
+                    ClientId = table.Column<int>(nullable: false),
+                    ApartmentId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -82,7 +82,7 @@ namespace RentEasy.Data.Migrations
                         column: x => x.ClientId,
                         principalTable: "Clients",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(

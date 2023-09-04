@@ -103,7 +103,7 @@ namespace RentEasy.Data.Migrations
                     b.Property<DateTime>("CheckOutDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("ClientId")
+                    b.Property<int>("ClientId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -130,7 +130,9 @@ namespace RentEasy.Data.Migrations
 
                     b.HasOne("RentEasy.Models.Client", null)
                         .WithMany("Reservations")
-                        .HasForeignKey("ClientId");
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
